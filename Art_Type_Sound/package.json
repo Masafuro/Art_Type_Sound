@@ -1,0 +1,58 @@
+{
+    "name": "Click",
+    "description": "Click Knock Tap...",
+    "definitions": [
+        {
+            "type": "keydown",
+            "events": {
+                "13":["_Enter.ogg"],
+                "65":["a.ogg"],
+                "66":["b.ogg"],
+                "67":["c.ogg"],
+                "68":["d.ogg"],
+                "69":["e.ogg"],
+                "70":["f.ogg"],
+                "71":["g.ogg"],
+                "72":["h.ogg"],
+                "73":["i.ogg"],
+                "74":["j.ogg"],
+                "75":["k.ogg"],
+                "76":["l.ogg"],
+                "77":["m.ogg"],
+                "78":["n.ogg"],
+                "79":["o.ogg"],
+                "80":["p.ogg"],
+                "81":["q.ogg"],
+                "82":["r.ogg"],
+                "83":["s.ogg"],
+                "84":["t.ogg"],
+                "85":["u.ogg"],
+                "86":["v.ogg"],
+                "87":["w.ogg"],
+                "88":["x.ogg"],
+                "89":["y.ogg"],
+                "90":["z.ogg"],
+                "default": [
+                      "step_1.ogg",
+                      "step_2.ogg",
+                      "step_4.ogg",
+                      "step_5.ogg",
+                      "step_6.ogg"
+              ]
+            }
+        },
+        {
+            "type": "keystroke",
+            "events": {
+                "ctrl-a": ["gender_rl.ogg"],
+                "ctrl-e": ["gender_lr.ogg"]
+            }
+        },
+        {
+            "type": "command",
+            "events": {
+                "core:save": ["step_3.ogg"]
+            }
+        }
+    ]
+}
