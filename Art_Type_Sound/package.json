@@ -5,7 +5,31 @@
         {
             "type": "keydown",
             "events": {
+                "39":["_right.ogg"],
+                "37":["_left.ogg"],
+                "38":["_up.ogg"],
+                "40":["_down.ogg"],
+                "33":["_pgup.ogg"],
+                "34":["_pgdown.ogg"],
+                "186":["_coron.ogg"],
+                "187":["_semicoron.ogg"],
+                "48":["0.ogg"],
+                "49":["1.ogg"],
+                "50":["2.ogg"],
+                "51":["3.ogg"],
+                "52":["4.ogg"],
+                "53":["5.ogg"],
+                "54":["6.ogg"],
+                "55":["7.ogg"],
+                "56":["8.ogg"],
+                "57":["9.ogg"],
                 "13":["_Enter.ogg"],
+                "188":["_isGreaterThan.ogg"],
+                "190":["_isLessThan.ogg"],
+                "191":["_slash.ogg"],
+                "219":["_[.ogg"],
+                "221":["_].ogg"],
+                "189":["_=.ogg"],
                 "65":["a.ogg"],
                 "66":["b.ogg"],
                 "67":["c.ogg"],
@@ -32,13 +56,7 @@
                 "88":["x.ogg"],
                 "89":["y.ogg"],
                 "90":["z.ogg"],
-                "default": [
-                      "step_1.ogg",
-                      "step_2.ogg",
-                      "step_4.ogg",
-                      "step_5.ogg",
-                      "step_6.ogg"
-              ]
+                "default": ["_space.ogg"]
             }
         },
         {
